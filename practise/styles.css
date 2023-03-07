@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(17, 199, 47);
+}
+p{
+    color: blue;
+}
+h1{
+    color: maroon;
+}
+
+#para1{
+    color:pink;
+    background:aqua;
+
+}
+#para2{
+    color:brown;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 20pf;
+    border-top-style: dotted;
+
+}
+.one{
+    font-style: italic;
+    font-size: 10px;
+    color:blanchedalmond
+}

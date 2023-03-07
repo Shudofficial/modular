@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python Overview</title>
+</head>
+<body>
+	<h1>Python</h1>
+	<p>Python is a high-level, interpreted programming language that has become popular for a variety of applications.</p>
+	
+	<h2>Data Types</h2>
+	<ul>
+		<li>Numbers (int, float, complex)</li>
+		<li>Strings</li>
+		<li>Booleans</li>
+		<li>Lists</li>
+		<li>Tuples</li>
+		<li>Sets</li>
+		<li>Dictionaries</li>
+	</ul>
+	
+	<h2>Advantages of Python</h2>
+	<ol>
+		<li>Readability and ease of use</li>
+		<li>Broad range of applications</li>
+		<li>Strong community support and large library of resources</li>
+	</ol>
+	
+	<h2>Comments in Python</h2>
+	<p>Comments in Python start with the hash (#) symbol and can be used to provide descriptions or explanations within your code.</p>
+	
+	<h2>Basic Functions</h2>
+	<ul>
+		<li>print() - prints text or variables to the console</li>
+		<li>len() - returns the length of a string, list, or other iterable</li>
+		<li>range() - creates a sequence of numbers</li>
+		<li>input() - prompts the user to enter input</li>
+		<li>type() - returns the data type of a variable</li>
+		<li>str() - converts a value to a string</li>
+		<li>int() - converts a value to an integer</li>
+		<li>float() - converts a value to a float</li>
+	</ul>
+<h2>Python Data Types</h2>
+<p>Python has several built-in data types:</p>
+<ul>
+  <li><b>Integer:</b> a whole number, positive or negative, without decimals.</li>
+  <li><b>Float:</b> a number with a decimal point.</li>
+  <li><b>Boolean:</b> a data type that represents the concept of true or false.</li>
+  <li><b>String:</b> a sequence of characters that can contain letters, numbers, and symbols.</li>
+  <li><b>List:</b> an ordered collection of items, which can be of different types.</li>
+  <li><b>Tuple:</b> an ordered collection of items, which cannot be modified.</li>
+  <li><b>Set:</b> an unordered collection of unique items.</li>
+  <li><b>Dictionary:</b> a collection of key-value pairs.</li>
+</ul>
+
+<head>
+	<title>Python Dictionaries and Calculator Example</title>
+</head>
+
+	<h1>Python Dictionaries</h1>
+	<p>A dictionary is an unordered collection of key-value pairs. In Python, dictionaries are defined using curly braces {} with each key-value pair separated by a colon. For example:</p>
+	
+	<pre>
+		my_dict = {
+			"name": "John",
+			"age": 30,
+			"city": "New York"
+		}
+	</pre>
+	
+	<p>You can access the values in a dictionary by referencing the keys. For example, to get the value associated with the "name" key in the above dictionary, you would use:</p>
+	
+	<pre>
+		name = my_dict["name"]
+	</pre>
+	
+	<p>Python dictionaries are commonly used to store and access data in a way that is efficient and easy to read.</p>
+	
+	<h1>Python Calculator Example</h1>
+	<p>A calculator is a tool that performs mathematical operations. In Python, you can create a calculator using functions and operators.</p>
+	
+	<h2>Example: Simple Calculator</h2>
+	<p>This example shows a simple calculator that allows users to enter two numbers and choose an operation to perform.</p>
+	
+	<pre>
+		def add(x, y):
+			return x + y
+
+		def subtract(x, y):
+			return x - y
+
+		def multiply(x, y):
+			return x * y
+
+		def divide(x, y):
+			return x / y
+
+		print("Select operation.")
+		print("1.Add")
+		print("2.Subtract")
+		print("3.Multiply")
+		print("4.Divide")
+
+		choice = input("Enter choice (1/2/3/4):")
+
+		num1 = float(input("Enter first number: "))
+		num2 = float(input("Enter second number: "))
+
+		if choice == '1':
+			print(num1,"+",num2,"=", add(num1,num2))
+
+		elif choice == '2':
+			print(num1,"-",num2,"=", subtract(num1,num2))
+
+		elif choice == '3':
+			print(num1,"*",num2,"=", multiply(num1,num2))
+
+		elif choice == '4':
+			print(num1,"/",num2,"=", divide(num1,num2))
+		else:
+			print("Invalid input")
+	</pre>
+	
+	<p>This calculator allows users to enter two numbers and choose an operation to perform from a list of options. It then uses functions to perform the selected operation and prints the result to the console.</p>
+	
+<head>
+	<title>Conclusion about Python</title>
+</head>
+
+	<h1>Python</h1>
+	<p>Python is a powerful, high-level programming language that is easy to learn and use. It has a clean syntax and can be used for a wide range of applications, from web development and scientific computing to data analysis and artificial intelligence.</p>
+	
+	<h2>Dictionaries in Python</h2>
+	<p>In Python, a dictionary is a collection of key-value pairs. Each key is unique and is used to access its corresponding value. Dictionaries are very useful for mapping one value to another, and for quickly looking up values based on their keys.</p>
+	<p>Here's an example of a dictionary in Python:</p>
+	<pre>
+	my_dict = {"apple": 1, "banana": 2, "orange": 3}
+	print(my_dict["banana"]) # Output: 2
+	</pre>
+	
+	<h2>Calculators in Python</h2>
+	<p>Python can also be used as a calculator to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It also supports more advanced mathematical functions such as trigonometric and logarithmic functions.</p>
+	<p>Here's an example of a simple calculator program in Python:</p>
+	<pre>
+	num1 = 10
+	num2 = 5
+	addition = num1 + num2
+	subtraction = num1 - num2
+	multiplication = num1 * num2
+	division = num1 / num2
+	print("Addition:", addition)
+	print("Subtraction:", subtraction)
+	print("Multiplication:", multiplication)
+	print("Division:", division)
+	</pre>
+	
+	<h2>Conclusion</h2>
+	<p>Python is a versatile programming language that offers many benefits over other languages, including its easy-to-learn syntax, wide range of applications, and powerful libraries. Its built-in data types and functions, such as dictionaries and calculators, make it a popular choice among developers and data analysts alike.</p>
+</body>
+</html>
+
+
+
